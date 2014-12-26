@@ -5,7 +5,7 @@ import com.j256.ormlite.field.DatabaseField;
 /**
  * Created by bencarroll on 2014-12-26.
  */
-public class User extends MyNightOutObject {
+public class DbUser extends MyNightOutObject {
 
     @DatabaseField(generatedId = true)
     private String mFirstName;

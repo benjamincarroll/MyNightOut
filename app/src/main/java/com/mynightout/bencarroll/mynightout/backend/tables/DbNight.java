@@ -5,7 +5,7 @@ import com.j256.ormlite.field.DatabaseField;
 /**
  * Created by bencarroll on 2014-12-26.
  */
-public class Night extends MyNightOutObject {
+public class DbNight extends MyNightOutObject {
 
     @DatabaseField(foreign = true, foreignAutoRefresh = true)
     DbLocation mDbLocation;
